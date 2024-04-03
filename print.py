@@ -19,6 +19,10 @@ class Printer:
 	def print_list(self, ls, nl=False):
 		print(f"The list: {ls}")
 		if nl: print()
+	
+	def print_dict(self, dict, nl=False):
+		print(f"The dict: {dict}")
+		if nl: print()
 
 
 if __name__ == "__main__":
@@ -34,4 +38,6 @@ if __name__ == "__main__":
 
 	pr.print_tuple((3, 4, 5))
 	pr.print_list([1, 10, 100])
+	pr.print_dict({ "abc" : 100, "def" : 400 })
 	print()
+
