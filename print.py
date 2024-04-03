@@ -24,11 +24,7 @@ class Printer:
 		print(f"The dict: {dict}")
 		if nl: print()
 
-
-if __name__ == "__main__":
-	print("Printer tests.")
-	print()
-
+def code1():
 	pr = Printer()
 
 	pr.print("abc")
@@ -41,3 +37,10 @@ if __name__ == "__main__":
 	pr.print_dict({ "abc" : 100, "def" : 400 })
 	print()
 
+
+
+if __name__ == "__main__":
+	print("Printer tests.")
+	print()
+
+	code1()
