@@ -31,13 +31,16 @@ if __name__ == "__main__":
 
 	pr = Printer()
 
+	print("Run container tests.")
+	pr.print_tuple((3, 4, 5))
+	pr.print_list([1, 10, 100])
+	pr.print_dict({ "abc" : 100, "def" : 400 })
+	print()
+
+	print("Run simple tests.")
 	pr.print("abc")
 	pr.print(123)
 	pr.print_nl("abc with nl")
 	print()
 
-	pr.print_tuple((3, 4, 5))
-	pr.print_list([1, 10, 100])
-	pr.print_dict({ "abc" : 100, "def" : 400 })
-	print()
 
