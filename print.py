@@ -4,14 +4,14 @@ class Printer:
 		print()
 
 		self.data = 0
-	
+
 	def print(self, data):
 		print(data)
-	
+
 	def print_nl(self, data):
 		print(data)
 		print()
-	
+
 	def print_tuple(self, tpl, nl=False):
 		print(f"The tuple: {tpl}")
 		if nl: print()
